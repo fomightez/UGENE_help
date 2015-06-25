@@ -7,41 +7,41 @@ This describes how to take a sequence with annotated features and move it into [
 
 You'll need to find the sequence and the associated annotations that UGENE generated. How to do this requires some examination of your UGENE files:
 
-	- The sequence and annotations files should be together in the project folder along with your project data information file that ends in the extension `.uprj`. You do not need any information from this file to perform the conversion, but examining it in your text editor or UGENE may help you identify the specific, related sequence and feature annotations files you need to do the conversion.
+- The sequence and annotations files should be together in the project folder along with your project data information file that ends in the extension `.uprj`. You do not need any information from this file to perform the conversion, but examining it in your text editor or UGENE may help you identify the specific, related sequence and feature annotations files you need to do the conversion.
 
-	- The UGENE sequence will be a FASTA format sequence file ending in `.fa`. You need to indentify the specific sequence file related to the specific molecule you are trying to port over to Serial Cloner. Your project folder may or may not have additional files with the same extension in it depending on how you choose to work with UGENE and its project and documents.
+- The UGENE sequence will be a FASTA format sequence file ending in `.fa`. You need to indentify the specific sequence file related to the specific molecule you are trying to port over to Serial Cloner. Your project folder may or may not have additional files with the same extension in it depending on how you choose to work with UGENE and its project and documents.
 
-	- The file with the feature annotations will end in `.gb`. You need to identify the specific Genbank-like formatted feature annotations file related to the specific molecule you are trying to port over to Serial Cloner. Your project folder may or may not have additional files in it with the same extension depending on how you choose to work with UGENE and its project and documents.
+- The file with the feature annotations will end in `.gb`. You need to identify the specific Genbank-like formatted feature annotations file related to the specific molecule you are trying to port over to Serial Cloner. Your project folder may or may not have additional files in it with the same extension depending on how you choose to work with UGENE and its project and documents.
 
 ## Step 2: Prepare a 'bridging file' to be used for importing into Serial Cloner
 
 You'll need to add the sequence from `.fa` file to the bottom of the `.gb` to make a Genbank file in a format that Serial Cloner will identify and use. The steps for that follow:
 
-	- In a good text editor equipped to handle coding, like [Sublime Text](http://www.sublimetext.com/) or [Brackets](http://brackets.io/) or TextWrangler (basically, anything aside from Window's Notepad, Microsoft Word, or other too basic text software/too fancy Word Processing software), open the UGENE file with the feature annotations that ends in `.gb`.
+- In a good text editor equipped to handle coding, like [Sublime Text](http://www.sublimetext.com/) or [Brackets](http://brackets.io/) or TextWrangler (basically, anything aside from Window's Notepad, Microsoft Word, or other too basic text software/too fancy Word Processing software), open the UGENE file with the feature annotations that ends in `.gb`.
 
-	- So that you don't destroy your UGENE files and projects, immediately save the `.gb` file as another name, preferably in a new directory. Once it is saved you are ready to edit it safely.
+- So that you don't destroy your UGENE files and projects, immediately save the `.gb` file as another name, preferably in a new directory. Once it is saved you are ready to edit it safely.
 
-	- The sequence will be placed right before the `//` at the end of the `.gb` gile. It has to be prefixed by a signal. Therefore on the line just above `//`, type `ORIGIN` and hit return. Now that you have the `ORIGIN` signal that indicates a sequence follows, you paste in the sequence in the next line.
-	- Open in a text editor the sequence `.fa` file identified above and copy the sequence portion and then paste it on the line after `ORIGIN` in the `.gb` file you are making.
+- The sequence will be placed right before the `//` at the end of the `.gb` gile. It has to be prefixed by a signal. Therefore on the line just above `//`, type `ORIGIN` and hit return. Now that you have the `ORIGIN` signal that indicates a sequence follows, you paste in the sequence in the next line.
+- Open in a text editor the sequence `.fa` file identified above and copy the sequence portion and then paste it on the line after `ORIGIN` in the `.gb` file you are making.
 
-	- Save the 'bridging' `.gb` intermediate file and close it.
+- Save the 'bridging' `.gb` intermediate file and close it.
 
 
 ## Step 3: Bring the sequence and annotations into Serial Cloner
 
-	- Right click the combined `.gb` and select to open it in Serial Cloner.
+- Right click the combined `.gb` and select to open it in Serial Cloner.
 
-	- It will give a message that you imported a NCBI-formatted Genbank file.
+- It will give a message that you imported a NCBI-formatted Genbank file.
 
-	- Your full sequence should be there. As a verification of the process thus far, it is advised you confirm the length matches.
+- Your full sequence should be there. As a verification of the process thus far, it is advised you confirm the length matches.
 
-	- Toggle on `circular` option in the `Sequence` tab if the sequence is a plasmid.
+- Toggle on `circular` option in the `Sequence` tab if the sequence is a plasmid.
 
 ## Step 4: Enable the imported annotated features to show in Serial Cloner
 
-	- Go to the `Features` tab and click `Edit` in the bottom right corner of the features window so you can toggle on `Show`.
+- Go to the `Features` tab and click `Edit` in the bottom right corner of the features window so you can toggle on `Show`.
 
-	- Toggle on `Show` in the bottom left so all the features will show in Serial Cloner tools. The will become bold text when `show` is enabled.
+- Toggle on `Show` in the bottom left so all the features will show in Serial Cloner tools. The will become bold text when `show` is enabled.
 
 Sadly, you have to do them one by one. I have not found a way to selected all of them at once.
 
