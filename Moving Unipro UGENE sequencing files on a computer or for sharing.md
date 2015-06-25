@@ -9,11 +9,11 @@ This covers moving the files around on a local computer or sharing on Dropbox sh
 
 It is helpful to understand that there is at least three files for each project.
 
-	- The sequence and annotations files should be together in the project folder along with your project data information file that ends in the extension `.uprj`. You do not need any information from this file to perform the conversion, but examining it in your text editor or UGENE may help you identify the specific, related sequence and feature annotations files you need to do the conversion.
+- The sequence and annotations files should be together in the project folder along with your project data information file that ends in the extension `.uprj`. You do not need any information from this file to perform the conversion, but examining it in your text editor or UGENE may help you identify the specific, related sequence and feature annotations files you need to do the conversion.
 
-	- The UGENE sequence will be a FASTA format sequence file ending in `.fa`. You need to indentify the specific sequence file related to the specific molecule you are trying to port over to Serial Cloner. Your project folder may or may not have additional files with the same extension in it depending on how you choose to work with UGENE and its project and documents. These will be the sequences of other molecules in that project.
+- The UGENE sequence will be a FASTA format sequence file ending in `.fa`. You need to indentify the specific sequence file related to the specific molecule you are trying to port over to Serial Cloner. Your project folder may or may not have additional files with the same extension in it depending on how you choose to work with UGENE and its project and documents. These will be the sequences of other molecules in that project.
 
-	- The file with the feature annotations will end in `.gb`. You need to identify the specific Genbank-like formatted feature annotations file related to the specific molecule you are trying to port over to Serial Cloner. Your project folder may or may not have additional files in it with the same extension depending on how you choose to work with UGENE and its project and documents. These will be the annotations for other molecules in that project.
+- The file with the feature annotations will end in `.gb`. You need to identify the specific Genbank-like formatted feature annotations file related to the specific molecule you are trying to port over to Serial Cloner. Your project folder may or may not have additional files in it with the same extension depending on how you choose to work with UGENE and its project and documents. These will be the annotations for other molecules in that project.
 
 
 ** DO NOT MOVE OR COPY UGENE FILES WITH THE INVOLVED PROJECT OR FILES OPEN IN UGENE PROGRAM. THIS WILL TRIGGER THE PROGRAM TO TRY AND SAVE ADDITIONAL PROJECT INFORMATION THAT MAY OVERWRITE YOUR GOOD INFORMATION INADVERTANTLY ***
@@ -33,7 +33,7 @@ It also seems with the UGENE software closed you can change the folder it is in 
 
 Alternatively, copying can be done by using the `Export project` to move the files with UGENE open.
 
-	- From the `File` menu > `Export project` , specify a destination folder name and click ' `...` to navigate to your new location or shared folder and click `Export`.
+	From the `File` menu > `Export project` , specify a destination folder name and click ' `...` to navigate to your new location or shared folder and click `Export`.
 
 
 
