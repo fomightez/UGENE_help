@@ -70,8 +70,8 @@ It will look something like below:
 
 - So that you don't destroy your UGENE files and projects, immediately save the `.gb` file as another name, preferably in a new directory. Once it is saved you are ready to edit it safely.
 
-- The sequence will be placed right before the `//` at the end of the `.gb` gile. It has to be prefixed by a signal. Therefore on the line just above `//`, type `ORIGIN` and hit return. Now that you have the `ORIGIN` signal that indicates a sequence follows, you paste in the sequence in the next line.
-- Open in a text editor the sequence `.fa` file identified above and copy the sequence portion and then paste it on the line after `ORIGIN` in the `.gb` file you are making.
+- The sequence will be placed right before the `//` found at the end of the `.gb` gile. The sequence has to be prefixed by a signal. Therefore on the line just above `//`, type `ORIGIN` and hit return. Now that you have the `ORIGIN` signal that indicates a sequence follows, you are ready to paste in the sequence on the next line.
+- Open in a text editor the sequence `.fa` file identified above and copy the sequence portion and then paste it on the line after `ORIGIN` in the bridging `.gb` file you are making.
 
 When the last two steps are completed you now should have something looking like below:
 
