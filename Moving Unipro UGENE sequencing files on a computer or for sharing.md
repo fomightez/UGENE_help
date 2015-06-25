@@ -33,7 +33,7 @@ It also seems with the UGENE software closed you can change the folder it is in 
 
 Alternatively, copying can be done by using the `Export project` to move the files with UGENE open.
 
-	From the `File` menu > `Export project` , specify a destination folder name and click ' `...` to navigate to your new location or shared folder and click `Export`.
+- From the `File` menu > `Export project` , specify a destination folder name and click ' `...` to navigate to your new location or shared folder and click `Export`.
 
 
 
