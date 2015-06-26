@@ -4,6 +4,8 @@ This covers moving the files around on a local computer or sharing on Dropbox sh
 
 ** DO NOT MOVE OR COPY UGENE FILES WITH THE INVOLVED PROJECT OR FILES OPEN IN THE UGENE PROGRAM. THIS WILL TRIGGER THE PROGRAM TO TRY AND SAVE ADDITIONAL PROJECT INFORMATION THAT MAY OVERWRITE YOUR GOOD INFORMATION INADVERTANTLY ***
 
+Also it is highly recommended you back up your drive prior to initiating anything like this and you do any adjustments that involve opening up files in UGENE somewhere that is backed up with each version as you work, i.e., a folder monitored by Dropbox. I have found it very easy to irreversibly destroy such files trying to play around with them.
+
 
 ## Background
 
@@ -43,6 +45,8 @@ CAUTION: When moving or copying, don't change the project or file names WITHIN t
 Changing any names of the component files will destroy associations because the path information seems to be stored in BOTH text and binary form inside the mixed form of the data in the project data information file that ends in the extension `.uprj`. When the association link is lost the features aren't show on the sequence in UGENE even though you load the sequence file in to the program. You'll see a red dialog box on the bottom right corner and clicking on that will relate some of the issue. (At least this is what I have surmised. After I changed file names for the `.fa` and `.gb` files I did try to change the text part within the project data information file that ends in the extension `.uprj` and even with this change the association gets destroyed so the information seems to be elsewhere in file. You can revert the changes and it will restore the sequence file and annotations association as long as you don't try this with UGENE still open. It will become irreversibly broken if you try with it open and even copying in a the original `.uprj` project file won't fix it although I cannot understand why.)
 
 And as mentioned several times above, ALWAYS close all instances of UGENE before trying to move or copy anything. This insures the program doesn't autosave any information about the data project to a file that is no longer present.
+
+Also it is highly recommended you back up your drive prior to initiating anything like this and you do any adjustments that involve opening up files in UGENE somewhere that is backed up with each version as you work, i.e., a folder monitored by Dropbox. I have found it very easy to irreversibly destroy such files trying to play around with them.
 
 
 ## E-mailing
