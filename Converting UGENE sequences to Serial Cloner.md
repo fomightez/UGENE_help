@@ -14,7 +14,7 @@ You'll need to find the sequence and the associated annotations that UGENE gener
 - The file with the feature annotations will end in `.gb`. You need to identify the specific Genbank-like formatted feature annotations file related to the specific molecule you are trying to port over to Serial Cloner. Your project folder may or may not have additional files in it with the same extension depending on how you choose to work with UGENE and its project and documents.
 
 
-However, when using the `Cloning` action under `Actions` to build molecules, you can alternatively just end up a Genbank-like formatted that INCLUDES BOTH the sequence and the annotations and there will be no associated `.fa` file. In this case you can skip over step #2 and go right to step #3.
+However, when using the `Cloning` action under `Actions` to build molecules, you can alternatively just end up a Genbank-like formatted that **INCLUDES BOTH** the sequence and the annotations and there will be no associated `.fa` file. In this case you can skip over step #2 and go right to step #3.
 
 ## Step 2: Prepare a 'bridging file' to be used for importing into Serial Cloner
 
