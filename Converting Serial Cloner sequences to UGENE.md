@@ -2,7 +2,7 @@
 
 This describes how to take a [Serial Cloner](http://serialbasics.free.fr/Serial_Cloner.html) sequence with annotated features and move it into [Unipro UGENE](http://ugene.unipro.ru/) with your favorite text editor and minimal effort. The annotated features from Serial Cloner will ultimately be intact and displayed in UGENE if you follow this process. The process of going from Serial Cloner to UGENE seems much simpler as the feature annotations in UGENE display by default.
 
-Main thing is you need a GenBank-formatted file generated from Serial Cloner. You can open that file in
+Main thing is you need a GenBank-formatted file generated from Serial Cloner. You can open that file in UGENE.
 
 
 ## Step 1: locate the Serial Cloner file and generate the Genbank files you'll need
