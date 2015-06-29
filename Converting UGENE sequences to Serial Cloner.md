@@ -5,13 +5,16 @@ This describes how to take a sequence with annotated features and move it into [
 
 ## Step 1: locate UGENE-generated files you'll need
 
-You'll need to find the sequence and the associated annotations that UGENE generated. How to do this requires some examination of your UGENE files:
+You'll need to find the sequence and the associated annotations that UGENE generated. How to do this requires some examination of your UGENE files. Typically when you are just starting to use UGENE, each molecule will have three files:
 
 - The sequence and annotations files should be together in the project folder along with your project data information file that ends in the extension `.uprj`. You do not need any information from this file to perform the conversion, but examining it in your text editor or UGENE may help you identify the specific, related sequence and feature annotations files you need to do the conversion.
 
 - The UGENE sequence will be a FASTA format sequence file ending in `.fa`. You need to indentify the specific sequence file related to the specific molecule you are trying to port over to Serial Cloner. Your project folder may or may not have additional files with the same extension in it depending on how you choose to work with UGENE and its project and documents.
 
 - The file with the feature annotations will end in `.gb`. You need to identify the specific Genbank-like formatted feature annotations file related to the specific molecule you are trying to port over to Serial Cloner. Your project folder may or may not have additional files in it with the same extension depending on how you choose to work with UGENE and its project and documents.
+
+
+However, when using the `Cloning` action under `Actions` to build molecules, you can alternatively just end up a Genbank-like formatted that INCLUDES BOTH the sequence and the annotations and there will be no associated `.fa` file. In this case you can skip over step #2 and go right to step #3.
 
 ## Step 2: Prepare a 'bridging file' to be used for importing into Serial Cloner
 
