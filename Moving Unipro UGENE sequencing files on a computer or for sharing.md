@@ -9,7 +9,7 @@ Also it is highly recommended you back up your drive prior to initiating anythin
 
 ## Background
 
-It is helpful to understand that there is at least three files for each project.
+It is helpful to understand that there can be up to three files for each project.
 
 - The sequence and annotations files should be together in the project folder along with your project data information file that ends in the extension `.uprj`. You do not need any information from this file to perform the conversion, but examining it in your text editor or UGENE may help you identify the specific, related sequence and feature annotations files you need to do the conversion.
 
@@ -17,6 +17,8 @@ It is helpful to understand that there is at least three files for each project.
 
 - The file with the feature annotations will end in `.gb`. You need to identify the specific Genbank-like formatted feature annotations file related to the specific molecule you are trying to port over to Serial Cloner. Your project folder may or may not have additional files in it with the same extension depending on how you choose to work with UGENE and its project and documents. These will be the annotations for other molecules in that project.
 
+
+It seems to the case that when, under the `Cloning` entry under `Actions` you use `Create fragment..` to make fragments that you then use to `Construct molecule..`, this generates a Genbank-like format with extension `.gb` that has both the sequence and annotations, and there is no corresponding `.fa` file. And thus the Genbank file UGENE generates is more like typical Genbank file in these cases. (I still don't understand the reasoning for the different results yet.)
 
 ** DO NOT MOVE OR COPY UGENE FILES WITH THE INVOLVED PROJECT OR FILES OPEN IN UGENE PROGRAM. THIS WILL TRIGGER THE PROGRAM TO TRY AND SAVE ADDITIONAL PROJECT INFORMATION THAT MAY OVERWRITE YOUR GOOD INFORMATION INADVERTANTLY ***
 
