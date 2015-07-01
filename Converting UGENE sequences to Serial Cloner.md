@@ -20,7 +20,7 @@ However, when using the `Cloning` action under `Actions` to build molecules, you
 
 You'll need to add the sequence from `.fa` file to the bottom of the `.gb` to make a Genbank file in a format that Serial Cloner will identify and use. The steps for that follow:
 
-- In a good text editor equipped to handle coding, like [Sublime Text](http://www.sublimetext.com/) or [Brackets](http://brackets.io/) or TextWrangler (basically, anything aside from Window's Notepad, Microsoft Word, or other too basic text software/too fancy Word Processing software), open the UGENE file with the feature annotations that ends in `.gb`.
+- In a good text editor equipped to handle coding, like [Sublime Text](http://www.sublimetext.com/), [Brackets](http://brackets.io/), [Atom](https://atom.io/) or TextWrangler (basically, anything aside from Window's Notepad, Microsoft Word, or other too basic text software/too fancy Word Processing software), open the UGENE file with the feature annotations that ends in `.gb`.
 
 It will look something like below:
 
@@ -147,6 +147,8 @@ When the last two steps are completed you now should have something looking like
 - Toggle on `Show` in the bottom left so all the features will show in Serial Cloner tools. The will become bold text when `show` is enabled.
 
 Sadly, you have to do them one by one. I have not found a way to selected all of them at once.
+
+- Adjust the names of the features as you see fit. I think Serial Cloner is taking the text that was in the notes so the names may not be as you'd like upon import.
 
 ## Step 5: Save as Serial Cloner '.xdna' format and clean up
 
