@@ -148,7 +148,7 @@ When the last two steps are completed you now should have something looking like
 
 Sadly, you have to do them one by one. I have not found a way to selected all of them at once.
 
-- Adjust the names of the features as you see fit. I think Serial Cloner is taking the text that was in the notes so the names may not be as you'd like upon import.
+- Adjust the names of the features as you see fit. (Serial Cloner is taking the first part of the text that was in the notes and appending it to the type of feature and so the names may not be as you'd like upon import. I may develop a script to automatically adjust this ahead of time by altering the `.gb` file just prior to the current step #3.)
 
 ## Step 5: Save as Serial Cloner '.xdna' format and clean up
 
