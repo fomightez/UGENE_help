@@ -140,7 +140,9 @@ When the last two steps are completed you now should have something looking like
 
 - Toggle on `circular` option in the `Sequence` tab if the sequence is a plasmid.
 
-## Step 4: Enable the imported annotated features to show in Serial Cloner
+## Step 4: Enable the imported annotated features to show in Serial Cloner and Fix names
+
+You most likely will not need to adjust the features to `show` if your UGENE `.gb` file had already contained both annotations and the sequence. For whatever reason files already containing the sequence, seem to default to enabling `show` on the individual features.
 
 - Go to the `Features` tab and click `Edit` in the bottom right corner of the features window so you can toggle on `Show`.
 
