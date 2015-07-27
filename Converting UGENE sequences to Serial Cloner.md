@@ -129,7 +129,7 @@ When the last two steps are completed you now should have something looking like
 
 - Save the 'bridging' `.gb` intermediate file and close it.
 
-- Optional: At this point, you can run [a Python script](https://github.com/fomightez/UGENE_help/blob/master/fixing_UGENE_annotations_4_Serial_Cloner.py) to modify the annotation names in the 'bridging' `.gb` intermediate file to facilitate the conversion of the UGENE annotations into Serial Cloner features. (Very soon you'll have the option to paste the text of the 'bridging' `.gb` intermediate file into a webserver to do the modification.) This step can save you editing the feature names at the end of step#4 below.
+- Optional: At this point, you can run [a Python script](https://github.com/fomightez/UGENE_help/blob/master/fixing_UGENE_annotations_4_Serial_Cloner.py) to modify the annotation names in the 'bridging' `.gb` intermediate file to facilitate the conversion of the UGENE annotations into Serial Cloner features. (Very soon you'll have the option to paste the text of the 'bridging' `.gb` intermediate file into a webserver to do the modification.) This step can save you editing the feature names at the end of step #4 below.
 
 ## Step 3: Bring the sequence and annotations into Serial Cloner
 
@@ -147,11 +147,9 @@ You most likely will not need to adjust the features to `show` if your UGENE `.g
 
 - Go to the `Features` tab and click `Edit` in the bottom right corner of the features window so you can toggle on `Show`.
 
-- Toggle on `Show` in the bottom left so all the features will show in Serial Cloner tools. The will become bold text when `show` is enabled.
+- Toggle on `Show` in the bottom left so all the features will show in Serial Cloner tools. The will become bold text when `show` is enabled. (Sadly, you have to do them one by one. I have not found a way to selected all of them at once.)
 
-Sadly, you have to do them one by one. I have not found a way to selected all of them at once.
-
-- Adjust the names of the features as you see fit. (Serial Cloner is taking the first part of the text that was in the notes and appending it to the type of feature and so the names may not be as you'd like upon import. I have developed a script to automatically adjust this ahead of time by altering the `.gb` file just prior to the current step #3. I also plan to host a webserver version of this helpful aid soon. Please look into one of these options if you are doing this a lot.)
+- Adjust the names of the features as you see fit. (Serial Cloner is taking the first part of the text that was in the notes and appending it to the type of feature and so the names may not be as you'd like upon import. I have developed [a Python script](https://github.com/fomightez/UGENE_help/blob/master/fixing_UGENE_annotations_4_Serial_Cloner.py) to automatically adjust this ahead of time by altering the `.gb` bridging file just prior to the current step #3. I also plan to host a webserver version of this helpful aid soon. Please look into one of these options if you find you are doing this tedious adjustment a lot.)
 
 ## Step 5: Save as Serial Cloner '.xdna' format and clean up
 
