@@ -129,7 +129,7 @@ When the last two steps are completed you now should have something looking like
 
 - Save the 'bridging' `.gb` intermediate file and close it.
 
-- Optional: At this point, you can run [a script](https://github.com/fomightez/UGENE_help/blob/master/fixing_UGENE_annotations_4_Serial_Cloner.py) to modify the annotation names in the 'bridging' `.gb` intermediate file to fcailitate the conversion of the UGENE annotations into Serial Cloner features. Or very soon you'll have the option to paste the text of the 'bridging' `.gb` intermediate file into a webserver to do the modification.) This step can save you editing the feature names at the end of step#4 below.
+- Optional: At this point, you can run [a Python script](https://github.com/fomightez/UGENE_help/blob/master/fixing_UGENE_annotations_4_Serial_Cloner.py) to modify the annotation names in the 'bridging' `.gb` intermediate file to fcailitate the conversion of the UGENE annotations into Serial Cloner features. Or very soon you'll have the option to paste the text of the 'bridging' `.gb` intermediate file into a webserver to do the modification.) This step can save you editing the feature names at the end of step#4 below.
 
 ## Step 3: Bring the sequence and annotations into Serial Cloner
 
@@ -164,4 +164,4 @@ Sadly, you have to do them one by one. I have not found a way to selected all of
 
 ## Additional notes
 
-There is a separate Serial Cloner Genbank format that Serial Cloner can save and import. This format includes color and other information in the features list. You could optionally take advantage of this ability and add related code if you want at `step #2`. I considered making a script to do some of these steps, particularly the optional ones, but the process as described here is more transparent and seems acceptable for now.
+There is a separate Serial Cloner Genbank format that Serial Cloner can save and import. This format includes color and other information in the features list. You could optionally take advantage of this ability and add related code if you want at `step #2`. I considered made [a Python script](https://github.com/fomightez/UGENE_help/blob/master/fixing_UGENE_annotations_4_Serial_Cloner.py) to do at least one of these optional steps and considered developig more. Overall though the process as described here is relatively straighforward and seems acceptable for now.
