@@ -129,6 +129,7 @@ When the last two steps are completed you now should have something looking like
 
 - Save the 'bridging' `.gb` intermediate file and close it.
 
+- Optional: At this point, you can run [a script](LINK GOES HERE) to modify the annotation names in the 'bridging' `.gb` intermediate file to fcailitate the conversion of the UGENE annotations into Serial Cloner features. Or very soon you'll have the option to paste the text of the 'bridging' `.gb` intermediate file into a webserver to do the modification.) This step can save you editing the feature names at the end of step#4 below.
 
 ## Step 3: Bring the sequence and annotations into Serial Cloner
 
@@ -150,7 +151,7 @@ You most likely will not need to adjust the features to `show` if your UGENE `.g
 
 Sadly, you have to do them one by one. I have not found a way to selected all of them at once.
 
-- Adjust the names of the features as you see fit. (Serial Cloner is taking the first part of the text that was in the notes and appending it to the type of feature and so the names may not be as you'd like upon import. I may develop a script to automatically adjust this ahead of time by altering the `.gb` file just prior to the current step #3.)
+- Adjust the names of the features as you see fit. (Serial Cloner is taking the first part of the text that was in the notes and appending it to the type of feature and so the names may not be as you'd like upon import. I have developed a script to automatically adjust this ahead of time by altering the `.gb` file just prior to the current step #3. I also plan to host a webserver version of this helpful aid soon. Please look into one of these options if you are doing this a lot.)
 
 ## Step 5: Save as Serial Cloner '.xdna' format and clean up
 
