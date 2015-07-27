@@ -129,7 +129,7 @@ When the last two steps are completed you now should have something looking like
 
 - Save the 'bridging' `.gb` intermediate file and close it.
 
-- Optional: At this point, you can run [a script](LINK GOES HERE) to modify the annotation names in the 'bridging' `.gb` intermediate file to fcailitate the conversion of the UGENE annotations into Serial Cloner features. Or very soon you'll have the option to paste the text of the 'bridging' `.gb` intermediate file into a webserver to do the modification.) This step can save you editing the feature names at the end of step#4 below.
+- Optional: At this point, you can run [a script](https://github.com/fomightez/UGENE_help/blob/master/fixing_UGENE_annotations_4_Serial_Cloner.py) to modify the annotation names in the 'bridging' `.gb` intermediate file to fcailitate the conversion of the UGENE annotations into Serial Cloner features. Or very soon you'll have the option to paste the text of the 'bridging' `.gb` intermediate file into a webserver to do the modification.) This step can save you editing the feature names at the end of step#4 below.
 
 ## Step 3: Bring the sequence and annotations into Serial Cloner
 
