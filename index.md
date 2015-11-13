@@ -6,4 +6,4 @@
 * A script, [fixing_UGENE_annotations_4_Serial_Clonerv.py](https://github.com/fomightez/UGENE_help/blob/master/fixing_UGENE_annotations_4_Serial_Cloner.py), to facilitate converting UGENE's annotation entries to Serial Cloner features.
 
 
-(Technical note: This file `index.md` added as workaround for bug in mkdocs handling that Read the Docs currently has for current mkdocs builds. See https://github.com/rtfd/readthedocs.org/issues/1615 .)
+(Technical note: This file `index.md` added with text from `README.md` as workaround for bug in mkdocs handling that Read the Docs currently has for current mkdocs builds. See https://github.com/rtfd/readthedocs.org/issues/1615 . If fixed to match what wiki currently says, this file won't be necessary and `README.md` will again be used.)
