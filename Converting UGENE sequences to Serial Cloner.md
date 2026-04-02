@@ -1,6 +1,6 @@
 # Converting a Unipro UGENE sequence to Serial Cloner
 
-This describes how to take a sequence with annotated features and move it into [Serial Cloner](http://serialbasics.free.fr/Serial_Cloner.html) with your favorite text editor and minimal effort. The annotated features from [Unipro UGENE](http://ugene.unipro.ru/) will ultimately be intact and displayed in Serial Cloner if you follow this process. One of the reasons for possibly doing this is in order to take advantage of the tools in Serial Cloner that UGENE seems to lack/approaches differently, in particular Serial Cloner allows for easily making and printing full graphical `Graph Maps` or classical restriction sequence maps (`Seq. Maps`) with features and restriction sites indicated.
+This describes how to take a sequence with annotated features and move it into [Serial Cloner](http://serialbasics.free.fr/Serial_Cloner.html) with your favorite text editor and minimal effort. The annotated features from [Unipro UGENE](http://ugene.unipro.ru/) will ultimately be intact and displayed in Serial Cloner if you follow this process. One of the reasons for possibly doing this is in order to take advantage of the tools in Serial Cloner that UGENE seems to lack/approaches differently, in particular Serial Cloner allows for easily making and printing full graphical `Graph Maps` or classical restriction sequence maps (`Seq. Maps`) with features and restriction sites indicated. (HAS THIS POSSIBLE CHANGED IN LAST DECADE SU UGENE HAS???)
 
 
 ## Step 1: locate UGENE-generated files you'll need
