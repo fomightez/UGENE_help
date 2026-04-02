@@ -20,7 +20,7 @@ However, when using the `Cloning` action under `Actions` to build molecules, you
 
 You'll need to add the sequence from `.fa` file to the bottom of the `.gb` to make a Genbank file in a format that Serial Cloner will identify and use. The steps for that follow:
 
-- In a good text editor equipped to handle coding, like [Sublime Text](http://www.sublimetext.com/), [Brackets](http://brackets.io/), [Atom](https://atom.io/) or TextWrangler (basically, anything aside from Window's Notepad, Microsoft Word, or other too basic text software/too fancy Word Processing software), open the UGENE file with the feature annotations that ends in `.gb`.
+- In a good text editor equipped to handle coding, like Visual Studio Code/ VSCode, [Sublime Text](http://www.sublimetext.com/), [Brackets](http://brackets.io/),  or TextWrangler (basically, anything aside from Window's Notepad, Microsoft Word, or other too basic text software/too fancy Word Processing software), open the UGENE file with the feature annotations that ends in `.gb`.
 
 It will look something like below:
 
